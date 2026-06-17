@@ -1,6 +1,6 @@
-Basic projects
+# * Basic projects *
 --------------------------------
-#Simple calculate
+### Simple calculate
 A simple calculate with python
 
 Notes:
@@ -10,5 +10,5 @@ Notes:
 #input() is where the user will add the data.
 #== checks is the operator is equal to any of the mathematical operators; if is true or false.
 --------------------------------
-#Basic system that convert temperature
+### Basic system that convert temperature
 
