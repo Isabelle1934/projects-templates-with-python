@@ -1,6 +1,6 @@
 # simple-calculate
-A simple calculate with python
 --------------------------------
+A simple calculate with python
 
 Notes:
 #Float is used to represent decimal numbers.
