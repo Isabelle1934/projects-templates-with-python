@@ -1,4 +1,7 @@
-# simple-calculate
+Basic projects
+--------------------------------
+
+number 1. #simple-calculate
 A simple calculate with python
 
 Notes:
