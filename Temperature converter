@@ -1,8 +1,8 @@
 temp = float(input('Enter temperature: '))
-unit = input('Enter unit (C for Celsius, F for Fahrenheit, K for Kelvin): ').upper() else:
-print("Invalid unit. Please enter C, F, or K.")
-
-if unit == 'C':
+unit = input('Enter unit (C for Celsius, F for Fahrenheit, K for Kelvin): ').upper()
+if unit not in ['C', 'F', 'K']:
+    print("Invalid unit. Please enter C, F, or K.")
+elif unit == 'C':
     fahrenheit = (temp * 9/5) + 32
     kelvin = temp + 273.15
     print(f"{temp}°C is {fahrenheit}°F and {kelvin}K")
@@ -13,3 +13,4 @@ elif unit == 'F':
 elif unit == 'K':
     celsius = temp - 273.15
     fahrenheit = (celsius * 9/5) + 32
+    print(f"{temp}K is {celsius}°C and {fahrenheit}°F")
